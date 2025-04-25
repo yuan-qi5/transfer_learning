@@ -10,4 +10,4 @@ code :
 -
 
 
-[1]:
+[1]:https://github.com/yuan-qi5/transfer_learning/blob/main/paper/transferable_feature.md
