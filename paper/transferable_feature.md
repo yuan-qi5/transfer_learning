@@ -38,7 +38,7 @@
 
 ![transfer_setup](transfer_setup.md)
 
-### Similar Analysisi
+### Similar Analysis
 
 - base B top-1 error rate 37.5% 低于 1000-class network 42.5% (推测是过拟合) 
 
@@ -49,3 +49,30 @@
 - 在相似任务迁移时，迁移特征并允许微调会增强在新任务上的泛化能力，且由与 BnB+ 的对比知并不是由于训练时间变长造成的，推测是由于避免了过拟合  
 
 ![transfer_experiments](./picture/transfer_experiments.png)
+
+### Dissimilar Analysis
+
+**dataset setup** : 基于 ImageNet 提供的父类层级，将图片分为 man-made entities 和 natural entities，略微有些不均匀，man-made group 551 classes，natural group 449 classes
+
+**hypothesis** : base task and target task 越不相似，特征迁移有效性越差
+
+![transfer_setup](./picture/transfer_setup.png)
+
+### Random Weights
+
+**Jarrett et al.(2009)** : 及时卷积层的滤波器是随机生成的（未经学习），再经过 ReLU 激活，池化和局部归一化后，这些随机特征提取器的效果能接近经过训练学习出来的特征。
+
+**Question** : 上述结论是在两层神经网络基于 Caltech-101 dataset 上得到的，是否随机滤波器能在更大数据集更深神经网络上得到相同效果？
+
+![dissimilarity_experiment](./picture/dissimilarity_experiment.png)
+
+**conclusion** : 
+
+- 随着层数 n 增加，冻结特征时的迁移性能差距会迅速扩大
+
+- 即便是从一个 “差距较大” 的任务迁移特征，也优于随机生成的滤波器
+ 
+
+
+
+
