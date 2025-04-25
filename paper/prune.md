@@ -10,7 +10,7 @@
 
 ## Method
 
-![prune_method](./pictures/prune_method.png)
+![prune_method](./picture/prune_method.png)
 
 prune connections 通过删去低于阈值的权重，来将密集网络变为稀疏网络。
 
