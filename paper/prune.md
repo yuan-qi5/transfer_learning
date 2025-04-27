@@ -105,3 +105,4 @@ ImageNet ILSVRC-2012 : 1.2M training examples and 50k validation examples
 
 - 除了 cnn 和 fc , lstm、rnn、transformer 等剪枝后效果怎么样？
 
+- 其他剪枝方式？
