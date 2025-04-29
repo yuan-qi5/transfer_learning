@@ -6,7 +6,7 @@ paper :
 - [Learning both Weights and Connections for Efficient Neural Network][2] (2015 NIPS)
 - [Learning Transferable Features with Deep Adaptation Networks][3] (2015 ICML) 未完
 - [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images][4] (2015 CVPR)
--[Intriguing properties of neural networks][5] (2013 arxiv 2014 ICLR)
+- [Intriguing properties of neural networks][5] (2013 arxiv 2014 ICLR)
 
 code :
 
