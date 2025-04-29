@@ -6,7 +6,7 @@ paper :
 - [Learning both Weights and Connections for Efficient Neural Network][2] (2015 NIPS)
 - [Learning Transferable Features with Deep Adaptation Networks][3] (2015 ICML) 未完
 - [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images][4] (2015 CVPR)
-
+-[Intriguing properties of neural networks][5] (2013 arxiv 2014 ICLR)
 
 code :
 
@@ -17,3 +17,4 @@ code :
 [2]:https://github.com/yuan-qi5/transfer_learning/blob/main/paper/prune.md
 [3]:https://github.com/yuan-qi5/transfer_learning/blob/main/paper/transferable_feature_deep_adaptation.md
 [4]:https://github.com/yuan-qi5/transfer_learning/blob/main/paper/high_confidence_predictions.md
+[5]:https://github.com/yuan-qi5/transfer_learning/blob/main/paper/DNN_intriguing_properties.md
